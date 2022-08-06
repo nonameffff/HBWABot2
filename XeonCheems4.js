@@ -8713,6 +8713,18 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
+            case 'gb': case '.gbwhatsapp': case 'gbwhatsapp': {
+                reply(`*GBWhatsApp Last version Download*\n https://herbert70.blogspot.com/2022/04/download-gbwhatsapp-last-version-update.html \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+            }
+            break
+            case 'igpro': case '.instagrampro': case 'instagrampro': {
+                reply(`*Instagram Pro Last Version Download*\nhttps://herbert70.blogspot.com/2022/07/instagram-pro.html  \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+            }
+            break
+            case 'ytpro': case '.youtubepro': case 'youtubepro': {
+                reply(`*YouTube Pro Last version Download*\n https://herbert70.blogspot.com/2022/07/youtube-pro.html \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+            }
+            break
 case 'igpro': case 'instapro': case 'instagrampro': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
