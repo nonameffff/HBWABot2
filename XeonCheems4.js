@@ -1090,30 +1090,30 @@ const reactionMessage = {
                         key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
                     }
                 }
-                
-                const timestampe = speed();
-const latensie = speed() - timestampe
-                const menulist = `┌─❖
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')},
+                            hydratedFooterText: `
+┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
-│└────────────┈ ⳹
-│
-└─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
-└┬────────────┈ ⳹
-   │✑  Please Select
-   │✑  The Button Below
-   └─────────────┈ ⳹`
+┌┤✑  Hi i Tha maw?😄
+│└───────────────┈ ⳹
+│ 「 BOT INFO 」
+│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
+│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : HBMods Fiber
+│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Herbert
+│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
+└┬──────────────┈ ⳹
+   │✑  Please Select The Button Below
+   └───────────────┈ ⳹`
    
    //randoming function
 function pickRandom(list) {
@@ -8763,7 +8763,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"Clicl to Join Bot Group",
-body: "", 
+body: "____", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://chat.whatsapp.com/ECtguf6pmRR1eXyeQ76jvO',
@@ -8789,7 +8789,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"Click to Join Bot Group",
-body: "", 
+body: "__", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://chat.whatsapp.com/ECtguf6pmRR1eXyeQ76jvO',
@@ -8815,7 +8815,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"Click to Join Bot Group",
-body: "", 
+body: "___", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://chat.whatsapp.com/ECtguf6pmRR1eXyeQ76jvO',
