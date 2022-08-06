@@ -1090,13 +1090,10 @@ const reactionMessage = {
                         key: { remoteJid: m.chat, fromMe: true, id: quoted.id }
                     }
                 }
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')},
-                            hydratedFooterText: `
+                
+                const timestampe = speed();
+const latensie = speed() - timestampe
+                const menulist = `
 ┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
