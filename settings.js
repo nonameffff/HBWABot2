@@ -55,7 +55,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['918416093656'] //ur owner number
-global.ownername = "HBWABot" //ur owner name
+global.ownername = "Herbert Sauntak" //ur owner name
 global.ytname = "YT: HBMods" //ur yt chanel name
 global.socialm = "IG: Herbert Sauntak" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
@@ -67,7 +67,7 @@ global.botname = 'HBWABot' //ur bot name
 global.linkz = "https://youtube.com/c/HBSuantakOfficialChannel" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtube.com/c/HBSuantakOfficialChannel" //ur website to be displayed
 global.botscript = 'https://www.instagram.com/herbert_suantak2' //script link
-global.reactmoji = "😘" //ur menu react emoji
+global.reactmoji = "❤️" //ur menu react emoji
 global.themeemoji = "🌚" //ur theme emoji
 global.packname = "Siamted by" //ur sticker watermark packname
 global.author = "HBWABot" //ur sticker watermark author
